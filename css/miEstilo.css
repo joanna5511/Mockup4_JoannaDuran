@@ -197,16 +197,15 @@ html {
 }
 .tarjeta-minimalista {
     background-color: #ffffff;
-    border-radius: 20px !important; /* Esquinas muy redondeadas y suaves */
-    border: 1px solid rgba(0, 0, 0, 0.03); /* Borde casi imperceptible para limpieza visual */
+    border-radius: 20px !important; 
+    border: 1px solid rgba(0, 0, 0, 0.03); 
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.04), 
-                0 8px 10px -6px rgba(0, 0, 0, 0.02); /* Sombra elegante de dos capas */
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); /* Movimiento fluido tipo resorte suave */
+                0 8px 10px -6px rgba(0, 0, 0, 0.02); 
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); 
     cursor: pointer;
     overflow: hidden;
 }
 
-/* Imagen de la tarjeta con efecto de escala suave */
 .tarjeta-minimalista .card-img-top {
     border-radius: 15px;
     transition: transform 0.5s ease;
@@ -243,3 +242,264 @@ html {
     color: #ffffff;
     box-shadow: 0 4px 12px rgba(3, 223, 252, 0.3);
 }
+
+
+@media (max-width: 991.98px) {
+    .contenedor-nav {
+        top: 1rem;
+        left: 3%;
+        width: 94%;
+    }
+
+    #logoimg {
+        margin-left: 0;
+        width: 100px;
+    }
+
+    .contenedor-nav .navbar-nav {
+        gap: 0.25rem !important;
+        margin: 0.75rem 0 0 !important;
+        align-items: stretch;
+    }
+
+    .contenedor-nav .nav-link,
+    .contenedor-nav .btn-color {
+        padding: 0.5rem 0.75rem !important;
+    }
+
+    .contenido,
+    #imagen0,
+    #imagen1,
+    #imagen2,
+    #imagen3,
+    #catalogo {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contenido {
+        height: auto;
+        min-height: 70vh;
+    }
+
+    #imagen0,
+    #imagen1,
+    #imagen2,
+    #imagen3 {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .inicio-titulo {
+        padding: 11rem 3rem 4rem;
+    }
+
+    #imagen1 {
+        min-height: 75vh;
+        padding: 2rem 2rem 3rem;
+    }
+
+    #imagen1 h2,
+    #imagen3 h2 {
+        padding-top: 2rem;
+    }
+
+    .titulo1 p,
+    .texto2 p {
+        padding: 1.5rem 2rem;
+        margin: 0;
+    }
+
+    .texto3 {
+        text-align: center;
+        padding: 0 1rem 1.5rem;
+        margin: 0;
+    }
+
+    .titulo1 br,
+    .texto2 br {
+        display: none;
+    }
+
+    #imagen2 {
+        min-height: 70vh;
+        padding: 2rem 1.5rem;
+    }
+
+    .cards {
+        padding: 2rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.25rem;
+        justify-items: center;
+    }
+
+    .cards .card {
+        width: 100% !important;
+        max-width: 18rem;
+    }
+
+    .botella img {
+        width: 180px;
+        right: 12px;
+    }
+
+    .kiwi img {
+        width: 140px;
+    }
+
+    .naranja img {
+        width: 190px;
+    }
+
+    .titu img {
+        width: 75px;
+        left: 1rem;
+    }
+
+    #catalogo {
+        height: auto;
+    }
+
+    .mover {
+        padding-top: 2rem;
+    }
+
+    .mi-carrusel-contenedor {
+        width: min(100%, 700px);
+    }
+
+    .carousel-item img {
+        height: 380px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .contenedor-nav {
+        top: 0.5rem;
+        left: 2%;
+        width: 96%;
+    }
+
+    #logoimg {
+        width: 82px;
+    }
+
+    .inicio-titulo {
+        padding: 9rem 1.25rem 3rem;
+        text-align: center;
+    }
+
+    .inicio-titulo h1 {
+        font-size: clamp(1.6rem, 7vw, 2rem);
+    }
+
+    .inicio-titulo p {
+        font-size: 0.95rem;
+    }
+
+    #imagen0 {
+        min-height: 78vh;
+        background-position: 58% center;
+    }
+
+    #imagen1 {
+        min-height: 0;
+        padding: 2rem 1rem;
+    }
+
+    #imagen1 h2,
+    #imagen3 h2 {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .titulo1 p,
+    .texto2 p {
+        padding: 1.25rem 0.25rem;
+        font-size: 0.95rem;
+        text-align: center;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+
+    .cards .card {
+        max-width: 20rem;
+    }
+
+    #imagen2 {
+        min-height: 0;
+        padding: 1.5rem 1rem;
+    }
+
+    #imagen3 {
+        min-height: 0;
+        padding: 2rem 1rem !important;
+    }
+
+    #imagen3 .tarjeta-planes {
+        width: 100%;
+        padding: 1rem !important;
+    }
+
+    #imagen3 .border-end {
+        border-right: 0 !important;
+        border-bottom: 1px solid #dee2e6 !important;
+        padding-bottom: 1rem;
+    }
+
+    #imagen3 .cuadro-precio {
+        padding: 0.4rem !important;
+        font-size: 0.8rem;
+    }
+
+    .botella img {
+        width: 100px;
+        right: 4px;
+    }
+
+    .kiwi img {
+        width: 90px;
+    }
+
+    .naranja img {
+        width: 120px;
+    }
+
+    .titu img {
+        width: 55px;
+        left: 0.5rem;
+    }
+
+    #catalogo.container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #catalogo .col-sm-6 {
+        width: 100%;
+    }
+
+    .mover {
+        padding-top: 1rem;
+    }
+
+    #carrusel {
+        padding: 2rem 1rem 0;
+    }
+
+    .carousel-item img {
+        height: 240px;
+    }
+
+    footer .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
