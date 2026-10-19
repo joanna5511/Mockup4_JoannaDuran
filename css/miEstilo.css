@@ -1,0 +1,175 @@
+.meddon-regular {
+    font-family: "Meddon", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.encode-sans-expanded-regular {
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.encode-sans-expanded-bold {
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contenedor-nav {
+    position: fixed;
+    top: 2rem;
+    left: 9%;
+    width: 90%;
+    max-width: 1100px;
+    z-index: 1000;
+    margin: 0;
+}
+
+#logoimg {
+    margin-left: 80px;
+    width: 122px;
+    height: auto;
+}
+
+.btn-color {
+    background-color: #8BF0FE;
+    color: white;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #03DFFC;
+}
+.btn-color:hover {
+    background-color: #03DFFC !important; 
+    color: white !important;
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 10px rgba(3, 223, 252, 0.3); 
+}
+
+/*imagnes*/
+html {
+    scroll-behavior: smooth;
+}
+
+.contenido {
+    margin: 6rem 8rem 0 8rem;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inicio-titulo {
+    color: rgb(3, 3, 3);
+    text-align: left;
+    padding: 10rem 5rem 0 5rem;
+}
+
+.inicio-titulo h1 {
+    font-size: 2rem;
+}
+
+.btn-inicio {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+
+.btn-inicio:hover {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+#imagen0 {
+    width: 81%;
+    height: 100vh;
+    background-image: url("../image/platos1.jfif");
+}
+
+#imagen1 {
+    margin-top: 0;
+    width: 81%;
+    height: 100vh;
+    background-image: url("../image/section2.jfif");
+}
+
+#imagen1 h2 {
+    padding-top: 8rem;
+}
+
+.titulo1 p {
+    text-align: left;
+    padding: 5rem;
+}
+
+.texto2 p {
+    text-align: left;
+    padding: 0 15rem;
+    margin-top: 5rem;
+}
+
+.texto3 {
+    text-align: right;
+    padding-right: 5rem;
+    margin-top: -10rem;
+}
+
+#imagen2 {
+    width: 81%;
+    height: 100vh;
+    margin-top: 0;
+    background-image: url("../image/sectio3.jfif");
+}
+
+.cards {
+    padding: 10rem 4rem 0 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imagen3 {
+    width: 81%;
+    height: 100vh;
+    margin-top: 0;
+    background-image: url("../image/section4.jfif");
+}
+#imagen3 h2 {
+    padding-top: 8rem;
+}
+.kiwi img{
+    
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left:0;
+}
+.naranja img{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right:0;
+    top: 0;
+}
+.titu img{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left:2rem;
+    top: 0;
+}
+.botella img {
+    width: 270px;
+    height: auto;
+    position: absolute;
+    right: 30px;
+    ;
+}
