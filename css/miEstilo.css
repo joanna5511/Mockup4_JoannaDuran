@@ -173,3 +173,73 @@ html {
     right: 30px;
     ;
 }
+#catalogo{
+     width: 81%;
+    height: 100vh;
+    margin-top: 0;
+    background-image: url("../image/section4.jfif");
+}
+.mi-carrusel-contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 1rem; 
+    overflow: hidden;
+}
+.carousel-item img {
+    height: 500px;    
+    object-fit: cover; 
+}
+#carrusel{
+    padding-top: 7rem;
+}
+.mover{
+    padding-top: 5rem;
+}
+.tarjeta-minimalista {
+    background-color: #ffffff;
+    border-radius: 20px !important; /* Esquinas muy redondeadas y suaves */
+    border: 1px solid rgba(0, 0, 0, 0.03); /* Borde casi imperceptible para limpieza visual */
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.04), 
+                0 8px 10px -6px rgba(0, 0, 0, 0.02); /* Sombra elegante de dos capas */
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); /* Movimiento fluido tipo resorte suave */
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* Imagen de la tarjeta con efecto de escala suave */
+.tarjeta-minimalista .card-img-top {
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+    object-fit: contain;
+}
+
+
+.tarjeta-minimalista:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.08), 
+                0 12px 15px -8px rgba(3, 223, 252, 0.25) !important;
+    border-color: rgba(3, 223, 252, 0.3); 
+}
+
+
+.tarjeta-minimalista:hover .card-img-top {
+    transform: scale(1.06);
+}
+
+
+.tarjeta-minimalista .card-title {
+    font-size: 1.05rem;
+    color: #2b2d42;
+    letter-spacing: -0.3px;
+}
+
+.tarjeta-minimalista .btn {
+    transition: all 0.3s ease;
+}
+
+.tarjeta-minimalista .btn:hover {
+    background-color: #03DFFC;
+    border-color: #03DFFC ;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(3, 223, 252, 0.3);
+}
